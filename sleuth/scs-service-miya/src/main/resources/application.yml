@@ -1,0 +1,11 @@
+# 在其配置文件application.yml指定zipkin server的地址，头通过配置“spring.zipkin.base-url”指定
+
+server:
+  port: 8989
+
+spring:
+  zipkin:
+    base-url: http://localhost:9411
+  application:
+    name: service-miya
+

@@ -4,16 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.springcloud.highavailabilityconfig</groupId>
-    <artifactId>highavailability-config</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <groupId>com.springcloud.sleuth</groupId>
+    <artifactId>sleuth</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
     <modules>
-        <module>ha-eureka-server</module>
-        <module>ha-config-server</module>
-        <module>ha-config-client</module>
+        <module>scs-service-hi</module>
+        <module>scs-service-miya</module>
     </modules>
 
 </project>
