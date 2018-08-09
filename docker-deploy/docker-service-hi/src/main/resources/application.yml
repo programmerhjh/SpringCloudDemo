@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.80.124:8761/eureka/ # 这个需要改为eureka-server
+server:
+  port: 8763
+spring:
+  application:
+    name: docker-service-hi
